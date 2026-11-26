@@ -1,6 +1,10 @@
 {
   "name": "react-safe-timers",
   "version": "1.0.0",
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/AmanWasti9/react-safe-timers.git"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -11,9 +15,7 @@
   "author": "Syed Amanullah Wasti",
   "license": "MIT",
   "description": "A robust React hook for managing asynchronous timers (setTimeout, setInterval, requestAnimationFrame) with automatic cleanup to prevent memory leaks.",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist", "!dist/**/*.test.*"],
   "keywords": [
     "react",
     "react-hook",
